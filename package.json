@@ -1,0 +1,30 @@
+{
+  "name": "iobroker.webui",
+  "version": "1.0.35",
+  "description": "ioBroker webui",
+  "type": "module",
+  "main": "dist/backend/main.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iobroker-community-adapters/ioBroker.webui.git"
+  },
+  "author": "jochen.kuehner@gmx.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iobroker-community-adapters/ioBroker.webui/issues"
+  },
+  "homepage": "https://github.com/iobroker-community-adapters/ioBroker.webui#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+	"@iobroker/adapter-core": "^3.0.4"
+  },
+  "devDependencies": {
+    "@node-projects/base-custom-webcomponent": "0.22.0",
+    "@iobroker/socket-client": "^2.3.13"
+  }
+}

@@ -1,0 +1,47 @@
+{
+    "schemaVersion": "1.0.0",
+    "readme": "README.md",
+    "modules": [
+        {
+            "kind": "javascript-module",
+            "path": "./components/demo-component.js",
+            "declarations": [
+                {
+                    "kind": "class",
+                    "description": "A simple webcomponent wrapping imask lib",
+                    "name": "DemoComponent",
+                    "members": [
+                        {
+                            "kind": "field",
+                            "name": "testProp",
+                            "type":  {
+                                "text": "string"
+                            }
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "name": "test-prop",
+                            "fieldName": "testProp"
+                        }
+                    ],
+                    "superclass": {
+                        "name": "HTMLElement"
+                    },
+                    "tagName": "demo-component",
+                    "customElement": true
+                }
+            ],
+            "exports": [
+                {
+                    "kind": "custom-element-definition",
+                    "name": "demo-component",
+                    "declaration": {
+                        "name": "DemoComponent",
+                        "module": "./components/demo-component.js"
+                    }
+                }
+            ]
+        }
+    ]
+}

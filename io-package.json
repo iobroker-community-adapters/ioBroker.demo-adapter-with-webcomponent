@@ -1,0 +1,59 @@
+{
+  "common": {
+    "name": "demo-adapter-with-webcomponent",
+    "version": "1.0.0",
+    "titleLang": {
+      "en": "demo-adapter-with-webcomponent",
+      "de": "demo-adapter-with-webcomponent",
+      "ru": "demo-adapter-with-webcomponent",
+      "pt": "demo-adapter-with-webcomponent",
+      "nl": "demo-adapter-with-webcomponent",
+      "fr": "demo-adapter-with-webcomponent",
+      "it": "demo-adapter-with-webcomponent",
+      "es": "demo-adapter-with-webcomponent",
+      "pl": "demo-adapter-with-webcomponent",
+      "uk": "demo-adapter-with-webcomponent",
+      "zh-cn": "demo-adapter-with-webcomponent"
+    },
+    "icon": "logo.png",
+    "connectionType": "local",
+    "dataSource": "push",
+    "platform": "Javascript/Node.js",
+    "loglevel": "info",
+    "enabled": true,
+    "compact": true,
+    "keywords": [
+      "GUI",
+      "graphical",
+      "scada",
+      "webcomponents",
+      "HTML"
+    ],
+    "readme": "https://github.com/iobroker-community-adapters/ioBroker.demo-adapter-with-webcomponent/blob/master/README.md",
+    "authors": [
+      "jogibear9988 <jochen.kuehner@gmx.de>"
+    ],
+    "license": "MIT",
+    "dependencies": [
+      {
+        "web": ">=3.4.16"
+      }
+    ],
+    "restartAdapters": [],
+    "serviceStates": false,
+    "singleton": true,
+    "type": "visualization",
+    "highlight": true,
+    "noConfig": true,
+    "adminUI": {
+      "config": "none"
+    },
+    "materialize": true,
+    "onlyWWW": false,
+    "nogit": false,
+    "mode": "daemon"
+  },
+  "native": {},
+  "instanceObjects": [
+  ]
+}
