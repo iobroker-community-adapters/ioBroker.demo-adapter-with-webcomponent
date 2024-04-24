@@ -4,7 +4,7 @@
     "modules": [
         {
             "kind": "javascript-module",
-            "path": "./components/demo-component.js",
+            "path": "./web-component-widgets/demo-component.js",
             "declarations": [
                 {
                     "kind": "class",
@@ -13,16 +13,24 @@
                     "members": [
                         {
                             "kind": "field",
-                            "name": "testProp",
-                            "type":  {
-                                "text": "string"
+                            "name": "checked",
+                            "type": {
+                                "text": "boolean"
                             }
                         }
                     ],
                     "attributes": [
                         {
-                            "name": "test-prop",
-                            "fieldName": "testProp"
+                            "name": "checked",
+                            "fieldName": "checked"
+                        }
+                    ],
+                    "events": [
+                        {
+                            "name": "checked-changed",
+                            "type": {
+                                "text": "Event"
+                            }
                         }
                     ],
                     "superclass": {
@@ -38,7 +46,7 @@
                     "name": "demo-component",
                     "declaration": {
                         "name": "DemoComponent",
-                        "module": "./components/demo-component.js"
+                        "module": "./web-component-widgets/demo-component.js"
                     }
                 }
             ]
