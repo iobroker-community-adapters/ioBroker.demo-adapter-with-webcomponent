@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <script type="importmap">
+        {
+          "imports": {
+            "@node-projects/base-custom-webcomponent": "../node_modules/@node-projects/base-custom-webcomponent/dist/index.js"
+          }
+        }
+      </script>
+    <script type="module" src="../web-component-widgets/index.js"></script>
+</head>
+
+<body>
+    <demo-component></demo-component>
+    <demo-component checked></demo-component>
+</body>
+
+<script>
+    const dc = document.querySelector('demo-component');
+    dc.addEventListener("checked-changed", (e) => {
+        document.body.append(document.createElement("br"));
+        document.body.append(document.createTextNode("newvalue: " + e.detail.newValue + ", oldvalue: " + e.detail.oldValue));
+    });
+</script>
+
+</html>

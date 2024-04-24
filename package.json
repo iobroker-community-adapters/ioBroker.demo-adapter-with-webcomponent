@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/backend/main.js",
   "scripts": {
-    
+    "start": "web-dev-server --open --app-index sample/sample.html"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@node-projects/base-custom-webcomponent": "0.22.0",
-    "@iobroker/socket-client": "^2.3.13"
+    "@iobroker/socket-client": "^2.3.13",
+    "@web/dev-server": "^0.4.4"
   }
 }
