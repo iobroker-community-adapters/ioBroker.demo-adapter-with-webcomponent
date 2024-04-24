@@ -4,7 +4,7 @@
     "modules": [
         {
             "kind": "javascript-module",
-            "path": "./web-component-widgets/demo-component.js",
+            "path": "./demo-component.js",
             "declarations": [
                 {
                     "kind": "class",
@@ -46,7 +46,7 @@
                     "name": "demo-component",
                     "declaration": {
                         "name": "DemoComponent",
-                        "module": "./web-component-widgets/demo-component.js"
+                        "module": "./demo-component.js"
                     }
                 }
             ]
