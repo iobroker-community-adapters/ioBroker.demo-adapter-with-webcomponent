@@ -21,7 +21,7 @@
     "node": ">=18"
   },
   "dependencies": {
-	"@iobroker/adapter-core": "^3.0.4"
+	"@iobroker/adapter-core": "^3.3.2"
   },
   "devDependencies": {
     "@node-projects/base-custom-webcomponent": "0.46.0",
