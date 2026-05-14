@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@node-projects/base-custom-webcomponent": "0.46.0",
-    "@iobroker/socket-client": "^2.3.13",
+    "@iobroker/socket-client": "^5.1.2",
     "@web/dev-server": "^0.4.6"
   }
 }
